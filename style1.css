@@ -17,7 +17,9 @@
 .intro ul li 
 {
     list-style: none;
+    border: 1px solid black;
     margin-left: 20px;
+    border-radius: 3px ;
 }
 .intro ul li a
 {
@@ -36,6 +38,35 @@
 }
 .chest iframe
 {
-    height: 200px;
+    height: 300px;
     width: 100%;
+}
+html
+{
+    background-color: white;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+.stomach p 
+{
+    padding: 5px;
+}
+.foot
+{
+    text-align: center;
+    background-color: black;
+    color: red;
+    transition: 1s;
+}
+.foot:hover
+{
+    color: cyan;
+}
+.doc li
+{
+    list-style: disc;
+}
+.doc
+{
+    padding: 5px;
 }
