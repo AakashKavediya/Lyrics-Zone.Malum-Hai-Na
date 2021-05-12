@@ -1,0 +1,40 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.intro
+{
+    background-color: orangered;
+    text-align: center;
+}
+.intro ul
+{
+    display: inline-flex;
+}
+.intro ul li 
+{
+    list-style: none;
+    margin-left: 20px;
+}
+.intro ul li a
+{
+    color: black;
+}
+.head h2
+{
+    text-align: center;
+    border: 8px double black;
+}
+.neck h3
+{
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid #000;
+}
+.chest iframe
+{
+    height: 200px;
+    width: 100%;
+}
