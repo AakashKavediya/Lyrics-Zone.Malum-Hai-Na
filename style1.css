@@ -17,7 +17,7 @@
 .intro ul li 
 {
     list-style: none;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-left: 20px;
     border-radius: 3px ;
 }
@@ -79,10 +79,6 @@ html
 {
     padding: 5px;
 }
-.add
-{
-    /* display: block; */
-}
 .box
 {
     display: block;
@@ -95,7 +91,7 @@ html
 .box img
 {
     width: 100%;
-    height: 200px;
+    height: 100px;
     padding: 5px;
 }
 .add h5
